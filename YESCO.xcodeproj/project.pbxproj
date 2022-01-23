@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,10 +13,12 @@
 		2A2B849A26833EC000ED61C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2B849826833EC000ED61C4 /* Main.storyboard */; };
 		2A2B849C26833EC100ED61C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2B849B26833EC100ED61C4 /* Assets.xcassets */; };
 		2A2B849F26833EC100ED61C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2B849D26833EC100ED61C4 /* LaunchScreen.storyboard */; };
+		2A4349A72689ED5C00DABF8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A4349A62689ED5C00DABF8B /* GoogleService-Info.plist */; };
+		D0561D79F21DFB5A6C178508 /* Pods_YESCO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A091FCB394F0965560E983DB /* Pods_YESCO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A2B848F26833EC000ED61C4 /* HiHR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiHR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2B848F26833EC000ED61C4 /* YESCO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YESCO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2B849226833EC000ED61C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A2B849426833EC000ED61C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2A2B849626833EC000ED61C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,12 @@
 		2A2B849B26833EC100ED61C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2B849E26833EC100ED61C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2B84A026833EC100ED61C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A4349A62689ED5C00DABF8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6110520917848248EE8E0A57 /* Pods-YESCO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YESCO.release.xcconfig"; path = "Target Support Files/Pods-YESCO/Pods-YESCO.release.xcconfig"; sourceTree = "<group>"; };
+		751937005F78E5BC5095B40C /* Pods-YESCO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YESCO.debug.xcconfig"; path = "Target Support Files/Pods-YESCO/Pods-YESCO.debug.xcconfig"; sourceTree = "<group>"; };
+		A091FCB394F0965560E983DB /* Pods_YESCO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YESCO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86D965790147E8941AD39AB /* Pods-HiHR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiHR.release.xcconfig"; path = "Target Support Files/Pods-HiHR/Pods-HiHR.release.xcconfig"; sourceTree = "<group>"; };
+		EE766B20F01314BD45ADBBC2 /* Pods-HiHR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiHR.debug.xcconfig"; path = "Target Support Files/Pods-HiHR/Pods-HiHR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0561D79F21DFB5A6C178508 /* Pods_YESCO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,22 +49,25 @@
 		2A2B848626833EC000ED61C4 = {
 			isa = PBXGroup;
 			children = (
-				2A2B849126833EC000ED61C4 /* HiHR */,
+				2A2B849126833EC000ED61C4 /* YESCO */,
 				2A2B849026833EC000ED61C4 /* Products */,
+				DD9FF70BBBADAAA5157DC6A0 /* Pods */,
+				66BF39198CC8AAD06B357BE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2A2B849026833EC000ED61C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A2B848F26833EC000ED61C4 /* HiHR.app */,
+				2A2B848F26833EC000ED61C4 /* YESCO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A2B849126833EC000ED61C4 /* HiHR */ = {
+		2A2B849126833EC000ED61C4 /* YESCO */ = {
 			isa = PBXGroup;
 			children = (
+				2A4349A62689ED5C00DABF8B /* GoogleService-Info.plist */,
 				2A2B849226833EC000ED61C4 /* AppDelegate.swift */,
 				2A2B849426833EC000ED61C4 /* SceneDelegate.swift */,
 				2A2B849626833EC000ED61C4 /* ViewController.swift */,
@@ -64,27 +76,48 @@
 				2A2B849D26833EC100ED61C4 /* LaunchScreen.storyboard */,
 				2A2B84A026833EC100ED61C4 /* Info.plist */,
 			);
-			path = HiHR;
+			path = YESCO;
+			sourceTree = "<group>";
+		};
+		66BF39198CC8AAD06B357BE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A091FCB394F0965560E983DB /* Pods_YESCO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9FF70BBBADAAA5157DC6A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE766B20F01314BD45ADBBC2 /* Pods-HiHR.debug.xcconfig */,
+				A86D965790147E8941AD39AB /* Pods-HiHR.release.xcconfig */,
+				751937005F78E5BC5095B40C /* Pods-YESCO.debug.xcconfig */,
+				6110520917848248EE8E0A57 /* Pods-YESCO.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A2B848E26833EC000ED61C4 /* HiHR */ = {
+		2A2B848E26833EC000ED61C4 /* YESCO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A2B84A326833EC100ED61C4 /* Build configuration list for PBXNativeTarget "HiHR" */;
+			buildConfigurationList = 2A2B84A326833EC100ED61C4 /* Build configuration list for PBXNativeTarget "YESCO" */;
 			buildPhases = (
+				F0092500EB03886253CF785F /* [CP] Check Pods Manifest.lock */,
 				2A2B848B26833EC000ED61C4 /* Sources */,
 				2A2B848C26833EC000ED61C4 /* Frameworks */,
 				2A2B848D26833EC000ED61C4 /* Resources */,
+				2B6E7C00D3A77C24636BAEDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HiHR;
+			name = YESCO;
 			productName = HiHR;
-			productReference = 2A2B848F26833EC000ED61C4 /* HiHR.app */;
+			productReference = 2A2B848F26833EC000ED61C4 /* YESCO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A2B848A26833EC000ED61C4 /* Build configuration list for PBXProject "HiHR" */;
+			buildConfigurationList = 2A2B848A26833EC000ED61C4 /* Build configuration list for PBXProject "YESCO" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A2B848E26833EC000ED61C4 /* HiHR */,
+				2A2B848E26833EC000ED61C4 /* YESCO */,
 			);
 		};
 /* End PBXProject section */
@@ -126,12 +159,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A2B849F26833EC100ED61C4 /* LaunchScreen.storyboard in Resources */,
+				2A4349A72689ED5C00DABF8B /* GoogleService-Info.plist in Resources */,
 				2A2B849C26833EC100ED61C4 /* Assets.xcassets in Resources */,
 				2A2B849A26833EC000ED61C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B6E7C00D3A77C24636BAEDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YESCO/Pods-YESCO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YESCO/Pods-YESCO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YESCO/Pods-YESCO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0092500EB03886253CF785F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YESCO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A2B848B26833EC000ED61C4 /* Sources */ = {
@@ -282,16 +358,18 @@
 		};
 		2A2B84A426833EC100ED61C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751937005F78E5BC5095B40C /* Pods-YESCO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q2FMS9VS4T;
-				INFOPLIST_FILE = HiHR/Info.plist;
+				DEVELOPMENT_TEAM = 2BX6A66946;
+				INFOPLIST_FILE = YESCO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tosky.HiHR;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.yesco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,16 +378,18 @@
 		};
 		2A2B84A526833EC100ED61C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6110520917848248EE8E0A57 /* Pods-YESCO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q2FMS9VS4T;
-				INFOPLIST_FILE = HiHR/Info.plist;
+				DEVELOPMENT_TEAM = 2BX6A66946;
+				INFOPLIST_FILE = YESCO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tosky.HiHR;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.yesco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A2B848A26833EC000ED61C4 /* Build configuration list for PBXProject "HiHR" */ = {
+		2A2B848A26833EC000ED61C4 /* Build configuration list for PBXProject "YESCO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A2B84A126833EC100ED61C4 /* Debug */,
@@ -328,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A2B84A326833EC100ED61C4 /* Build configuration list for PBXNativeTarget "HiHR" */ = {
+		2A2B84A326833EC100ED61C4 /* Build configuration list for PBXNativeTarget "YESCO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A2B84A426833EC100ED61C4 /* Debug */,
